@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">designui</string>
+    <string name="title_activity_tabsactivity">Tabsactivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_bottomactivity">Bottomactivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Favourite</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_profile">Profile</string>
+</resources>

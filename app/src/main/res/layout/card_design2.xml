@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="150dp"
+        app:cardElevation="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/cardimage"
+            android:layout_marginTop="0dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/car1"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp">
+        </ImageView>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <RelativeLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/cardname"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Pesta"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/cardname"
+        android:id="@+id/carddesc"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:text="Its are nice"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    </RelativeLayout>
+
+</LinearLayout>
